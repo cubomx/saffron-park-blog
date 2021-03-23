@@ -3,18 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2rem 0;
+}
+
+.Post h2 {
+    text-align: center;
 }
 
 .Post__Img{
     position: relative;
 }
 
+.Post__Img img{
+    width: 100%;
+}
+
+
+
 .Post_Txt{
+    display: block;
     position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    font-size: 2vw;
+    bottom: 10%;
+    left: 5%;
+    font-size: calc(16px + 2vmin);
     color: white;
     font-weight: bold;
+}
 
+@media only screen and (max-width: 1000px){
+    .Post__content{
+        width: 80%;
+    }
+
+    
 }

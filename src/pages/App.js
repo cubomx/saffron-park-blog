@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
+import './styles/App.css';
 
 function App() {
   const [name, setName] = useState('Sergio');

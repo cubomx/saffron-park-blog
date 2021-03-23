@@ -1,6 +1,23 @@
+
+
 .Home{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.Home-content{
+    margin-top: 150px;
+}
+
+.Home-content h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+    .Home h1{
+        font-size: 1.5rem;
+    }
 }

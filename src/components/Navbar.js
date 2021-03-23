@@ -5,7 +5,7 @@ import {Menu} from '@material-ui/icons';
 
 const Navbar = () => {
     return (
-        <div className='Navbar '>
+        <div className='Navbar'>
                 <img className='Navbar__Logo' src={Logo} alt='Logo' />
                 <div className='Navbar__Title'>
                     <h1>Saffron Park Society</h1>
@@ -13,10 +13,6 @@ const Navbar = () => {
                 <button type='button' className='btn btn-outline-primary'>
                     <Menu style={{fontSize: 25}} />
                 </button>
-                    
-                <div>
-
-                </div>
 
             
         </div>
