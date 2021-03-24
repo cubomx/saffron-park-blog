@@ -10,9 +10,10 @@ const Navbar = () => {
                 <div className='Navbar__Title'>
                     <h1>Saffron Park Society</h1>
                 </div>
-                <button type='button' className='btn btn-outline-primary'>
-                    <Menu style={{fontSize: 25}} />
+                <button className="Navbar__Menu">
+                <Menu  style={{fontSize: 25}} />
                 </button>
+                
 
             
         </div>
