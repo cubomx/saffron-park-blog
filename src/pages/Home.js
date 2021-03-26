@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './styles/Home.css';
 import Post from '../components/Post';
 
@@ -8,7 +8,6 @@ import { Auth, Firestore } from '../config/firebase.js';
 
 
 const Home = () => {
-  console.log("empece");
     let password ='cubomx1998', email='checo.mex@hotmail.com';
     const [data, setData] = useState([]);
   const handleAuth = () => {
@@ -47,11 +46,10 @@ const Home = () => {
                 data && data.map( (post, index)  => {
                   console.log(data)
                   return(
-                    <Post key={index} title={post.title}/>
+                    <Post key={index} title={post.title} img={post.img}/>
                   )
                   
                 })}
-                <button onClick={handleAuth}>Iniciar Sesión</button>
             </div>
             
         </div>
